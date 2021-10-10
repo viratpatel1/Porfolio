@@ -77,3 +77,10 @@ img:hover {
     margin: 10% 25%;
   }
 }
+@media screen and (max-width: 410px) {
+  .about-info .row img {
+    width: 60%;
+    height: 100%;
+    margin: 10% 20%;
+  }
+}

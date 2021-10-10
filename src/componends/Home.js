@@ -20,7 +20,6 @@ const Home = () =>
                                     I am avaiable to work in a professional environment with like-minded people and work hard with my
                                     skills towards the vision, mission and goal of the company <br />
                                 </Bounce>
-                                <br />
                                 <Button variant="info" href="https://drive.google.com/file/d/1cY9ICkgPgOLnQ6NgYxx4N_3AcnFwYq4E/view?usp=sharing" target="_blank">My Resume</Button>
                                 <Button variant="info" href="mailto:viratpatel993@gmail.com">Get in Touch</Button>
                             </Col>
