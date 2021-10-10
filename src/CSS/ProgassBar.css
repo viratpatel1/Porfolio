@@ -1,0 +1,41 @@
+.prograss-section {
+  /* display: grid; */
+  height: auto;
+  font-family: "Nunito", sans-serif;
+  /* border: 2px solid white; */
+  text-align: center;
+  margin: 0 0 20% 0;
+}
+.prograss-section h1 {
+  text-decoration: underline;
+  font-weight: 600;
+  color: #00ffff;
+}
+.skill {
+  padding-top: 10%;
+}
+.bg {
+  /* text-align: center; */
+  color: aliceblue;
+  background-color: rgb(18, 19, 19);
+  margin: 60px 0;
+  padding: 10px 0 0 0;
+}
+.bg ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style-type: none;
+}
+.bg .bar {
+  height: 20px;
+  margin: 0px 0 -25px 0;
+}
+@media screen and (max-width: 700px) {
+  .prograss-section {
+    margin: 10% 0 0 0;
+  }
+  /* .skill {
+    margin: 90% 0 0 0;
+  } */
+}

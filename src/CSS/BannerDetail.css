@@ -1,0 +1,94 @@
+.Banner-Section {
+  color: white;
+  /* border: 2px solid white; */
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+  align-content: center;
+  /* width: 50%; */
+  height: 100vh;
+  /* margin: 15% 0 0 6%; */
+}
+.btnn {
+  background-color: #00ffff;
+}
+.Intro-Header {
+  line-height: 5px;
+  margin-bottom: -20px;
+}
+
+.My-Intro {
+  display: grid;
+  place-items: center;
+  margin-top: 20%;
+  line-height: 20px;
+}
+.My-Intro span {
+  color: #00ffff;
+  font-weight: 400;
+}
+.My-Intro p {
+  font-size: 25px;
+}
+.My-Intro h1 {
+  font-size: 100px;
+}
+.My-Intro h3 {
+  font-size: 35px;
+}
+.My-Intro ul li {
+  font-size: 20px;
+}
+.My-Intro ul {
+  margin: 10px 0 0 20px;
+}
+.Intro-Header p {
+  text-align: center;
+  font-size: 35px;
+}
+@media screen and (max-width: 800px) {
+  .Banner-Section {
+    margin: 0 0 0 0;
+  }
+  .My-Intro {
+    margin-top: 33%;
+  }
+  .Intro-Header {
+    /* line-height: 5px; */
+    margin-bottom: -20px;
+  }
+
+  .My-Intro {
+    display: grid;
+    place-items: center;
+    /* margin-top: 15%; */
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .My-Intro {
+    margin-top: 42%;
+  }
+  .My-Intro p {
+    font-size: 25px;
+  }
+  .My-Intro h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .My-Intro {
+    margin-top: 60%;
+  }
+  .My-Intro p {
+    font-size: 15px;
+  }
+  .My-Intro h1 {
+    /* line-height: 80px; */
+    font-size: 60px;
+  }
+  .My-Intro h3 {
+    font-size: 22px;
+  }
+}

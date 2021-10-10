@@ -1,0 +1,68 @@
+.contact {
+  color: rgb(214, 230, 243);
+  /* border: 2px solid white; */
+  height: 100vh;
+  /* margin: 20% 10% 0 10%; */
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.Head {
+  text-decoration: underline;
+  color: #00ffff;
+  margin: 0 0 -15% 0;
+}
+.rows p {
+  font-size: 22px;
+}
+.row a {
+  text-decoration: none;
+  color: aliceblue;
+  line-height: 10px;
+}
+.rows h1 {
+  color: #00ffff;
+  text-decoration: underline;
+}
+.data {
+  color: #00ffff;
+}
+.data img {
+  width: 15%;
+}
+
+/* @media screen and (max-width: 800px) {
+  .contact {
+    margin: 80% 5% 0 5%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .contact {
+    margin: 220% 5% 0 5%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact {
+    margin: 280% 5% 0 5%;
+  }
+}
+@media screen and (max-width: 570px) {
+  .contact {
+    margin: 300% 0 0 10%;
+  }
+  .row p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact {
+    margin: 330% 0 0 10%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact {
+    margin: 400% 0 0 10%;
+  }
+} */
