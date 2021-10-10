@@ -21,8 +21,8 @@ const Home = () =>
                                     skills towards the vision, mission and goal of the company <br />
                                 </Bounce>
                                 <br />
-                                <Button variant="info" style={{ fontWeight: "bold", letterSpacing: "1px", backgroundColor: "rgb(35, 216, 223)", color: "white" }} href="https://drive.google.com/file/d/1cY9ICkgPgOLnQ6NgYxx4N_3AcnFwYq4E/view?usp=sharing" target="_blank">My Resume</Button>
-                                <Button variant="info" style={{ fontWeight: "bold", letterSpacing: "1px", margin: "0 0 0 20px" }} href="mailto:viratpatel993@gmail.com">Get in Touch</Button>
+                                <Button variant="info" href="https://drive.google.com/file/d/1cY9ICkgPgOLnQ6NgYxx4N_3AcnFwYq4E/view?usp=sharing" target="_blank">My Resume</Button>
+                                <Button variant="info" href="mailto:viratpatel993@gmail.com">Get in Touch</Button>
                             </Col>
                             <Col sm={5}><img src="image/profile-pic.jpg" /></Col>
                         </Row>
